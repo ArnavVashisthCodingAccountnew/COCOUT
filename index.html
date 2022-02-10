@@ -1,0 +1,49 @@
+
+<html>
+    <head>
+    
+      <title>Nalanda COCOUT</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js" integrity="sha512-N4kV7GkNv7QR7RX9YF/olywyIgIwNvfEe2nZtfyj73HdjCUkAfOBDbcuJ/cTaN04JKRnw1YG1wnUyNKMsNgg3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js" integrity="sha512-WzkwpdWEMAY/W8WvP9KS2/VI6zkgejR4/KTxTl4qHx0utqeyVE0JY+S1DlMuxDChC7x0oXtk/ESji6a0lP/Tdg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+    <script src="https://unpkg.com/ml5@0.5.0/dist/ml5.min.js"></script><style type="text/css" data-glamor=""></style>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  
+  
+    <link rel="stylesheet" href="style.css">
+  
+  
+    </head>
+    
+    <body background="background.jpg">
+    <center>
+      <h1 class="btn btn-info heading">COCOUT - Enter a object name(its name should be same in COCO-SSD) and start scan. COCO-SSD will look for that object.</h1>
+    <br>
+      <h3 id="status" class="btn btn-danger">Status</h3>
+      <h3 id="number_of_objects" class="btn btn-warning">object found or not found</h3><br><br/>
+      <b><h3>Enter the object name:</h3></b>
+      <input type="text" id="object_name" class="form-control" placeholder="Enter object name" required><br><br>
+    <button class="btn btn-success" onclick="start()">Start Scan</button>
+    
+    
+    
+    
+    
+    <br><br>
+
+<footer>
+    <p>&copy; Copyright 2022, COCOUT</p>
+    <a href = "https://tech.amikelive.com/node-718/what-object-categories-labels-are-in-coco-dataset/"> <button class="btn btn-info">Supported Objects</button></a>
+</footer>
+</center>
+    
+      <script src="main.js"></script>
+    
+    </body>
+    
+    </html>
